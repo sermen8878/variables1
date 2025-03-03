@@ -9,9 +9,9 @@ public class Main {
         System.out.println(weightDifference);
         System.out.println("Общий вес двух бойцов = " + totalWeight + " кг");
         System.out.println("Разница в весе бойцов = " + weightDifference + " кг");
-
-
-
+        var remainder = boxer2 % boxer1;
+        System.out.println(remainder);
+        System.out.println("Остаток от деления " + boxer2 + " на " + boxer1 + " = " + remainder);
 
     }
 }
